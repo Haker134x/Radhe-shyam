@@ -1,26 +1,77 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Radhe Shyam - Government Services</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radhe Shyam - Government Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; }
+        header { background-color: #0066cc; color: white; padding: 10px 20px; text-align: center; }
+        nav { background: #004a99; padding: 10px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 10px; font-weight: bold; }
+        .hero { padding: 50px 20px; background: #e6f0ff; text-align: center; }
+        .hero h1 { font-size: 2em; }
+        .hero p { font-size: 1.2em; margin-top: 10px; }
+        .section { padding: 40px 20px; }
+        .section h2 { color: #004a99; }
+        .services, .process, .why-us { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 800px; margin: auto; }
+        .card { background: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+        footer { background: #004a99; color: white; text-align: center; padding: 10px; }
+        .cta-buttons a { margin: 10px; display: inline-block; background: #0066cc; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Radhe Shyam</h1>
-    <p>Delhi-Rohini Sector 21 | 📞 8750580508</p>
-  </header>
-
-  <section class="hero">
-    <h2>All Government Services At One Place</h2>
-    <p>PAN Card, GST, ITR Filing, MSME, FSSAI, and More</p>
-    <a href="https://forms.gle/K7j9YhZvvScb7mRZ9" class="btn">Apply Now</a>
-    <a href="https://wa.me/918750580508" class="btn">WhatsApp Us</a>
-  </section>
-
-  <footer>
-    <p>© 2025 Radhe Shyam Services. All rights reserved.</p>
-  </footer>
+    <header>
+        <h1>Radhe Shyam - Government Services</h1>
+        <p>Call: 8750580508 | Location: Delhi-Rohini Sector 21</p>
+    </header>
+    <nav>
+        <a href="#services">Our Services</a>
+        <a href="#process">How It Works</a>
+        <a href="#whyus">Why Choose Us</a>
+        <a href="https://wa.me/918750580508">WhatsApp</a>
+    </nav>
+    <div class="hero">
+        <h1>Get Your Govt. Services Done Easily</h1>
+        <p>PAN, GST, ITR, MSME, Loan & More – Hassle-free Assistance</p>
+        <div class="cta-buttons">
+            <a href="https://wa.me/918750580508">Chat on WhatsApp</a>
+            <a href="#">Apply Now</a>
+        </div>
+    </div>
+    <div class="section" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">PAN Card Apply</div>
+            <div class="card">GST Registration</div>
+            <div class="card">ITR Filing</div>
+            <div class="card">Udyam / MSME</div>
+            <div class="card">Business Loan Help</div>
+            <div class="card">Other Govt. Services</div>
+        </div>
+    </div>
+    <div class="section" id="process">
+        <h2>How It Works</h2>
+        <div class="process">
+            <div class="card">Step 1: Submit your details</div>
+            <div class="card">Step 2: Get a call from expert</div>
+            <div class="card">Step 3: We process your request</div>
+            <div class="card">Step 4: Get confirmation/report</div>
+        </div>
+    </div>
+    <div class="section" id="whyus">
+        <h2>Why Choose Radhe Shyam</h2>
+        <div class="why-us">
+            <div class="card">✔️ Affordable pricing</div>
+            <div class="card">✔️ Fast online service</div>
+            <div class="card">✔️ Government authorized process</div>
+            <div class="card">✔️ Support on Call/WhatsApp</div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Radhe Shyam | Govt. Services from Delhi-Rohini Sector 21
+    </footer>
 </body>
 </html>
